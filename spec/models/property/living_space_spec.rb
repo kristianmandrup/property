@@ -4,7 +4,7 @@ require 'spec_helper'
 
 describe Property::LivingSpace do
   context 'default property' do
-    subject { create :property }
+    subject { create :valid_property }
 
     describe 'has living space properties' do
       %w{furnishment rooms shared size type}.each do |attrib|

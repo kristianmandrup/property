@@ -1,21 +1,20 @@
 source "http://rubygems.org"
 
-ruby '1.9.3'
+ruby '2.0.0'
 
 gem 'thor',     '>= 0.17'
 gem 'bundler',  '>= 1.3'
 gem "rails",    "~> 4.0.0.beta1", github: 'rails/rails'
 
 # user/account namespace
-gem 'property_living_space', path: '/Users/kmandrup/private/repos/company/engines/property_living_space'
-
-# allow users to have conversations for each account
-gem 'property_location', path: '/Users/kmandrup/private/repos/company/engines/property_location'
+gem 'property_living_space', github: 'kristianmandrup/property_living_space'
+gem 'property_location',   path: '/Users/kmandrup/private/repos/company/engines/property_location'
+gem 'property_description',  github: 'kristianmandrup/property_description'
 
 gem 'on_the_map'
 
-gem 'geocoder'
-gem 'mongoid_geospatial'
+gem 'mongoid_geospatial', '>= 2.7.1',     github: 'nofxx/mongoid_geospatial'
+gem 'geocoder',           '>= 1.1',       github: 'alexreisner/geocoder'
 gem 'mongoid_indexing',   '~> 0.1.2'
 gem 'gmaps4rails',        '>= 2.0.0.pre', github: 'apneadiving/Google-Maps-for-Rails'
 

@@ -4,7 +4,7 @@ describe Property::Location do
   subject { property }
 
   context 'Property' do
-    let(:property)  { create :property, street: street, city: 'Copenhagen' }
+    let(:property)  { create :valid_property, street: street, city: 'Copenhagen' }
     let(:street)    { 'Griffenfeldsgade 11b' }
     let(:country)   { 'Denmark' }
 
