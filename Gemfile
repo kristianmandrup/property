@@ -8,7 +8,7 @@ gem "rails",    "~> 4.0.0.beta1", github: 'rails/rails'
 
 # user/account namespace
 gem 'property_living_space', github: 'kristianmandrup/property_living_space'
-gem 'property_location',   path: '/Users/kmandrup/private/repos/company/engines/property_location'
+gem 'property_location',     github: 'kristianmandrup/property_location'
 gem 'property_description',  github: 'kristianmandrup/property_description'
 
 gem 'on_the_map'

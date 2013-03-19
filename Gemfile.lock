@@ -23,6 +23,12 @@ GIT
     property_living_space (0.0.1)
 
 GIT
+  remote: git://github.com/kristianmandrup/property_location.git
+  revision: 109bce411f23c63f38ea1e0dd2bdc681b79883bb
+  specs:
+    property_location (0.0.1)
+
+GIT
   remote: git://github.com/kristianmandrup/sugar-high.git
   revision: a664566b1ae94a404553c2fe2434165e0c5f550b
   specs:
@@ -100,11 +106,6 @@ PATH
   remote: .
   specs:
     rent_property (0.0.1)
-
-PATH
-  remote: /Users/kmandrup/private/repos/company/engines/property_location
-  specs:
-    property_location (0.0.1)
 
 PATH
   remote: /Users/kmandrup/private/repos/ffaker
