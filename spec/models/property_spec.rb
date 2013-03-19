@@ -5,7 +5,7 @@ require 'on_the_map/geo_locatable'
 
 describe Property do
   context 'default property' do
-    subject { create :property }
+    subject { create :valid_property }
 
     describe 'living space' do
       it "has furnishment" do
