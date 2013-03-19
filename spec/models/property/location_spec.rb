@@ -4,9 +4,10 @@ describe Property::Location do
   subject { property }
 
   context 'Property' do
-    let(:property)  { create :valid_property, street: street, city: 'Copenhagen' }
+    let(:property)  { create :valid_property, street: street, city: city }
     let(:street)    { 'Griffenfeldsgade 11b' }
     let(:country)   { 'Denmark' }
+    let(:city)      { 'Copenhagen' }
 
     # http://www.infoplease.com/ipa/A0001769.html
     # Latitude and Longitude of World Cities

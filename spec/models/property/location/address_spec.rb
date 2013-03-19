@@ -27,6 +27,12 @@ describe Address do
           expect(subject.country).to eq country 
         end
       end
+
+      describe 'floor_adr' do
+        it 'should be empty' do
+          expect(subject.floor_adr).to be_nil
+        end
+      end
     end
   end
 end

@@ -10,7 +10,7 @@ class Property
       Shared        = LivingSpace::Shared
       Type          = LivingSpace::Type
 
-      include_concerns  :living_space, :location, :description
+      include_concerns  :living_space, :location, :description, for: 'Property'
     end
   end
 end

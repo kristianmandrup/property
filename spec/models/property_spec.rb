@@ -18,5 +18,21 @@ describe Property do
         expect(subject.address).to_not be nil
       end
     end
+
+    describe 'floor address' do    
+      it "is nil" do
+        expect(subject.floor_adr).to be nil
+      end
+
+      context 'set floor to 1st' do
+        before do
+          subject.floor_adr = '1st'
+        end
+
+        it "is 1st" do
+          expect(subject.floor_adr).to eq '1st'
+        end
+      end        
+    end
   end
 end
