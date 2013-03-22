@@ -51,7 +51,7 @@ group :test do
   gem 'factory_girl_rails', require: false
 
   # Fake data
-  gem 'ffaker', '~> 1.14.1', :path => '/Users/kmandrup/private/repos/ffaker' # :git => 'git://github.com/kristianmandrup/ffaker.git'
+  gem 'ffaker', '>= 1.13' #, :path => '/Users/kmandrup/private/repos/ffaker' # :git => 'git://github.com/kristianmandrup/ffaker.git'
   gem 'fakeweb'
 
   gem 'shoulda'         
