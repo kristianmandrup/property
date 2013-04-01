@@ -1,11 +1,11 @@
 .bundle/
 log/*.log
 pkg/
-spec/dummy/logs
-spec/dummy/public
-spec/dummy/temp
+spec/dummy/db/*.sqlite3
+spec/dummy/log/*.log
+spec/dummy/tmp/
+spec/dummy/.sass-cache
 
-*.gem
-
-Gemfile.lock
 .DS_Store
+Gemfile.lock
+*.gem
