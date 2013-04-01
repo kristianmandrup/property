@@ -10,7 +10,9 @@ class Property
     extend ActiveSupport::Concern
 
     included do
-      include_concerns  :living_space, :location, :description, for: 'Property'
+      include_concerns  :living_space, :location, :description, 
+                        :rent_cost, :has_amenities, :contact, :rent_period,
+                        from: 'Property'
     end
   end
 end

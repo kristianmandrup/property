@@ -1,9 +1,11 @@
 require 'spec_helper'
 
+Geocoder.configure(:timeout => 10.seconds )
+
 describe Property::Period do
   subject { property }
 
-  let(:property)  { create :property }
+  let(:property)  { create :valid_property }
   let(:period)    { property.period }
 
   it 'should be set' do

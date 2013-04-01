@@ -49,6 +49,9 @@ Spork.prefork do
 
     config.include FactoryGirl::Syntax::Methods
 
+    # Stub geocoding
+    # GeocodeStubbing.stub_geocoding!
+
     # == Mock Framework
     config.mock_with :rspec
 
