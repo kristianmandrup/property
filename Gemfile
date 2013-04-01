@@ -11,9 +11,10 @@ gem 'property_amenities',    github: 'kristianmandrup/property_amenities'
 gem 'property_costs',        github: 'kristianmandrup/property_costs'
 gem 'property_contact',      github: 'kristianmandrup/property_contact'
 
-# gem 'property_period',       github: 'kristianmandrup/property_period'
-# gem 'property_photos',       github: 'kristianmandrup/property_period'
+gem 'property_period',       github: 'kristianmandrup/property_period'
+gem 'property_photos',       github: 'kristianmandrup/property_photos'
 
+# dependencies for property gems
 gem 'gmaps4rails',        '>= 2.0.0.pre'
 
 # Declare your gem's dependencies in rent_messaging.gemspec.
