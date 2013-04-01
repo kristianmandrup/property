@@ -8,7 +8,10 @@ gem 'property_location',     '~> 0.0.2',  github: 'kristianmandrup/property_loca
 gem 'property_description',               github: 'kristianmandrup/property_description'
 
 gem 'property_amenities',                 github: 'kristianmandrup/property_amenities'
-gem 'property_costs',                     github: 'kristianmandrup/property_costs'
+
+# gem 'property_costs',                     github: 'kristianmandrup/property_costs'
+gem 'property_costs', path: '/Users/kmandrup/private/repos/company/engines/property_costs'
+
 gem 'property_contact',                   github: 'kristianmandrup/property_contact'
 
 # gem 'property_period',       github: 'kristianmandrup/property_period'
